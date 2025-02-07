@@ -49,3 +49,39 @@ Student Management RESI Api is a backend service built with Go (GoLang) to Manag
       git clone https://github.com/KhomaneNandkumar/student-management-rest.git
       cd student-management-rest
       ```
+
+   2. Install Dependencies
+
+      ```bash
+      go mod init tidy
+      ```
+
+   3. Set enviroment Variables: create a.env file at the project root:
+
+      ```bash
+       DB_NAME=<>
+       DB_HOST=localhost
+       DB_PORT=5432
+       DB_USER=<>
+       DB_PASSWORD=<>
+       SERVER_ADDRESS=0.0.0.0:8085
+      ```
+
+  4. Run Database Migration
+
+      ```bash
+      go run  migration/main.go
+      ```
+
+  5. Build Server
+
+      ```bash
+      go build .
+      ```
+
+  6. Start Server
+
+     ```bash
+     ./student-management-rest
+     ```
+       
