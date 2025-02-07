@@ -17,3 +17,18 @@ Student Management RESI Api is a backend service built with Go (GoLang) to Manag
     -  Gin For Http Request Handling.
     -  GORM for ORM- based Database .
     -  Viper For Configuration Management.
+ 
+###  Api Endpoints :
+####  Base URL : http://loaclhost:8080/api/v1
+
+#### Endponits 
+
+  | Method   | Endpoint   | Description       | Request Body                     |  Response (Success)            |
+  |----------|------------|-------------------|----------------------------------|--------------------------------|
+  |          |
+  |
+  |
+  |
+  |
+  |
+  |
