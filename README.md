@@ -21,7 +21,7 @@ Student Management RESI Api is a backend service built with Go (GoLang) to Manag
 ###  Api Endpoints :
 ####  Base URL : http://loaclhost:8080/api/v1
 
-#### Endponits 
+#### Endponits: 
 
   | Method   | Endpoint           | Description                 | Request Body                     |  Response (Success)                           |
   |----------|--------------------|-----------------------------|----------------------------------|-----------------------------------------------|
@@ -31,3 +31,21 @@ Student Management RESI Api is a backend service built with Go (GoLang) to Manag
   | PUT      |`\students\{id}`    | Update an Existing Student  | `{"name":"john smith", "age":21,"Grade":"A+"}`| `{"message":"Student Updated"}`  |
   | DELETE   |`\students\{id}`    | Delete a Student By ID      | None                             | `{"message":"student deleted"}`
   
+### Setup and Installation
+
+#### Prerequisites
+
+  - Go (Version 1.19 or later)
+  - Docker
+  - Postgres DB
+  - Git
+  - Postman
+
+ #### Steps
+
+   1. Clone The Repository
+
+      ```bash
+      git clone https://github.com/KhomaneNandkumar/student-management-rest.git
+      cd student-management-rest
+      ```
