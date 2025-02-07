@@ -23,12 +23,11 @@ Student Management RESI Api is a backend service built with Go (GoLang) to Manag
 
 #### Endponits 
 
-  | Method   | Endpoint   | Description       | Request Body                     |  Response (Success)            |
-  |----------|------------|-------------------|----------------------------------|--------------------------------|
-  |          |
-  |
-  |
-  |
-  |
-  |
-  |
+  | Method   | Endpoint           | Description                 | Request Body                     |  Response (Success)                           |
+  |----------|--------------------|-----------------------------|----------------------------------|-----------------------------------------------|
+  | GET      |`\students`         | Fetch All Students          | None                             | `[{id , name , age , grade , created_at}]`    |
+  | GET      |`\students/{id}`    | Fetch Student By ID         | None                             | `[{id , name , age, grade , created_at }]`    |
+  | POST     |`\students`         | Add a new Student           | `{"name":"john Doe", "age":20, "Grade":"A"}`| `{"message":"student added"}`      |
+  | PUT      |`\students\{id}`    | Update an Existing Student  | `{"name":"john smith", "age":21,"Grade":"A+"}`| `{"message":"Student Updated"}`  |
+  | DELETE   |`\students\{id}`    | Delete a Student By ID      | None                             | `{"message":"student deleted"}`
+  
