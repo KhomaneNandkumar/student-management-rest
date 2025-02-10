@@ -6,7 +6,7 @@ Student Management RESI Api is a backend service built with Go (GoLang) to Manag
 
 ### Features
   -  Add Student    : Create New Student Record.             
-  -  View Student   : Featch Details Of all Students or Specific Student By ID. Add Student.
+  -  View Student   : Featch Details Of all Students or Specific Student By ID.
   -  Update Student : Update The Existing Student Details.
   -  Delete Student : Remove Student Records From The System.
 
