@@ -2,7 +2,7 @@ package initializers
 
 import (
 	"fmt"
-
+	
 	"example.com/student-management/internal/models"
 	"github.com/projectdiscovery/gologger"
 	"gorm.io/driver/postgres"
